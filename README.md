@@ -13,7 +13,8 @@
 - 🔭 Atualmente no **Bootcamp Data Analytics da WoMakersCode (2026)**
 - 🎓 Pós-graduanda em **Privacidade e Proteção de Dados**
 - 🐍 Conhecimento em **Python, SQL e Power BI**
-- 🎯 Meta atual: Atuar como analista de dados / migrar para o setor de dados na administração pública]
+- 📝 ☁️ Aprendendo conhecimentos em **AWS**
+
 
 <br>
 
@@ -32,27 +33,20 @@
 
 <br>
 
-## 🔥 Consistência
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SEU_USUARIO&theme=radical&hide_border=true" alt="GitHub Streak" />
-</p>
-
-<br>
 
 ## 📌 Projetos em destaque
 
-### 📊 [Nome do Projeto 1 — ex: Dashboard de Gastos Públicos]
-Breve descrição: que dados você usou, que ferramenta (Python/SQL/Power BI) e qual insight o projeto entrega.
-[🔗 Ver repositório](https://github.com/SEU_USUARIO/projeto1)
+### 📊 Netflix Analytics Dashboard!
+Breve descrição: Construção de um dashboard no Power BI a partir de um dataset de títulos da Netflix, com foco na preparação, modelagem e estruturação dos dados.
+**Tecnologias:** Power BI, Excel
+[🔗 Ver repositório](https://github.com/tamycs/Projeto-BI-Netflix)
 
-### 📊 [Nome do Projeto 2]
-Breve descrição do que o projeto faz e o que você aprendeu construindo ele.
-[🔗 Ver repositório](https://github.com/SEU_USUARIO/projeto2)
+### 📊 Análise de Vendas
+Dashboard interativo simples que permite explorar dados
+**Tecnologias:** Python
+[🔗 Ver repositório](https://github.com/tamycs/Analise-vendas)
 
-### 📊 [Nome do Projeto 3]
-Breve descrição do que o projeto faz e o que você aprendeu construindo ele.
-[🔗 Ver repositório](https://github.com/SEU_USUARIO/projeto3)
+
 
 <br>
 
@@ -63,7 +57,7 @@ Breve descrição do que o projeto faz e o que você aprendeu construindo ele.
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:tamires_candido2010@hotmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=mail&logoColor=white" />
   </a>
 </p>
 
