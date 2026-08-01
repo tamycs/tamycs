@@ -1,9 +1,14 @@
 name: Generate Datas
 
 on:
-  schedule: # execute every 12 hours
+  schedule:
+    # Executa a cada 12 horas
     - cron: "0 */12 * * *"
   workflow_dispatch:
+
+# Dá permissão para o bot criar a branch 'output' e salvar os arquivos
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -17,7 +22,8 @@ jobs:
           github_user_name: tamycs
           svg_out_path: dist/github-contribution-grid-snake.svg
 
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+      # Publica a animação na branch 'output'
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
