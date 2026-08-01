@@ -2,11 +2,10 @@ name: Generate Datas
 
 on:
   schedule:
-    # Executa a cada 12 horas
+    # Executa a cada 12 horas (no minuto 0)
     - cron: "0 */12 * * *"
   workflow_dispatch:
 
-# Dá permissão para o bot criar a branch 'output' e salvar os arquivos
 permissions:
   contents: write
 
@@ -15,18 +14,18 @@ jobs:
     name: Jobs to update datas
     runs-on: ubuntu-latest
     steps:
-      # Snake Animation
-      - uses: Platane/snk@master
-        id: snake-gif
+      # Gera a animação usando uma versão que se adapta ao tema (claro/escuro)
+      - uses: Platane/snk/svg-only@v3
         with:
           github_user_name: tamycs
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Publica a animação na branch 'output'
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+      # Publica os arquivos gerados na branch 'output'
+      - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  
