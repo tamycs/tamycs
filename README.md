@@ -64,7 +64,7 @@ Dashboard interativo simples que permite explorar dados
 <br>
 
 <p align="center">
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjg1aGhub3JjNDB6NHB4eTd2YWhrcnRpZHl2c2xwbWprbG1ub3hpaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ENOgXeHxaYK2Xjumie/giphy.gif" width="400"/>
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjg1aGhub3JjNDB6NHB4eTd2YWhrcnRpZHl2c2xwbWprbG1ub3hpaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ENOgXeHxaYK2Xjumie/giphy.gif" width="200"/>
 </p>
 
 <br>
